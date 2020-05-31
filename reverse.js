@@ -18,7 +18,7 @@
 // // }
 
 let words = (str) => {
-  return [...str]
+  return [...str].reverse().join('')
 
 }
 console.log(words('oke'))
